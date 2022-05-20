@@ -10,7 +10,7 @@ function Register() {
         name: '',
         email: '',
         password: '',
-        password2: ''
+        password2: '',
     })
 
     // destructure from form data objects in state
@@ -29,7 +29,7 @@ function Register() {
         e.preventDefault()
 
 
-        if(password !== password2) {
+        if (password !== password2) {
             toast.error('Passwords do not match')
         }
     }
