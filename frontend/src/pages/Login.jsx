@@ -48,7 +48,7 @@ function Login() {
                     <input type='email' className='form-control' id='email' value={email} onChange={onChange} name='email' placeholder='Enter Your Email' required />
                 </div>
                 <div className='form-group'>
-                    <input type='password' className='form-control' id='password' value={password} onChange={onChange} name='password' placeholder='Create Password' required />
+                    <input type='password' className='form-control' id='password' value={password} onChange={onChange} name='password' placeholder='Enter Password' required />
                 </div>
                 <div className='form-group'>
                     <button className='btn btn-block'>Submit</button>
