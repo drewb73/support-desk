@@ -24,7 +24,7 @@ function Register() {
         }))
     }
 
-    // create onSubmit function for form
+    // create onSubmit function for form and check if password and password2 equal each other
     const onSubmit = (e) => {
         e.preventDefault()
 
@@ -47,7 +47,7 @@ function Register() {
         </section>
 
         <section className='form'>
-            <form onSbumit={onSubmit}>
+            <form onSubmit={onSubmit}>
                 <div className='form-group'>
                     <input type='text' className='form-control' id='name' value={name} onChange={onChange} name='name' placeholder='Enter Your Name' required />
                 </div>
